@@ -34,7 +34,8 @@ import {
   ADVISORY_BOARD_MEMBERS,
   CENTRAL_OFFICE_BEARERS,
   VICE_PRESIDENTS_LIST,
-  EXECUTIVE_COMMITTEE_LIST
+  EXECUTIVE_COMMITTEE_LIST,
+  DEFAULT_MEMBER_AVATAR
 } from '../data/ngoData';
 import { IndianPatternDivider } from './IndianPatternDivider';
 import { PageId } from '../types';
@@ -289,6 +290,9 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
             const isOfficeBearer = member.tier === 'OfficeBearer';
             const isVicePres = member.tier === 'VicePresident';
             const isNamitaSaha = member.id === 'adv-namita-saha' || member.name.includes('Namita') || member.imageUrl.includes('Namita');
+            const isSnehasishBiswas = member.id === 'exec-asst-sec-2';
+            const isPijusSaha = member.id === 'cm-pijus-saha';
+            const isDefaultAvatar = member.imageUrl === DEFAULT_MEMBER_AVATAR;
 
             return (
               <div 
@@ -296,19 +300,23 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
                 className="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:border-blue-900 hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="relative h-64 bg-gradient-to-tr from-slate-900 via-slate-800 to-blue-950 overflow-hidden">
+                  <div className={`relative h-64 overflow-hidden ${isDefaultAvatar ? 'bg-[#dcdcdc]' : 'bg-gradient-to-tr from-slate-900 via-slate-800 to-blue-950'}`}>
                     <img
                       src={member.imageUrl}
                       alt={isBengali ? member.bengaliName : member.name}
                       style={member.imagePosition ? { objectPosition: member.imagePosition } : undefined}
                       className={
-                        isNamitaSaha
+                        isNamitaSaha || isSnehasishBiswas
                           ? "w-full h-full object-contain object-top origin-top scale-[1.25] drop-shadow-xl opacity-95 transition-transform duration-300 group-hover:scale-[1.28]"
+                          : isPijusSaha
+                          ? "w-full h-full object-contain object-center drop-shadow-xl opacity-95 transition-transform duration-300 group-hover:scale-105"
+                          : isDefaultAvatar
+                          ? "w-full h-full object-contain object-center"
                           : "w-full h-full object-cover object-top opacity-95 group-hover:scale-105 transition-transform duration-300"
                       }
                       referrerPolicy="no-referrer"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none"></div>
+                    <div className={`absolute inset-0 pointer-events-none ${isDefaultAvatar ? 'bg-gradient-to-t from-slate-900/25 via-transparent to-transparent' : 'bg-gradient-to-t from-slate-950/70 via-transparent to-transparent'}`}></div>
                     
                     <div className="absolute top-3 right-3">
                       <span className={`px-2.5 py-1 rounded-full text-xs font-bold shadow-xs ${

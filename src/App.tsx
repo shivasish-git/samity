@@ -59,8 +59,8 @@ function MainApp() {
         bn: 'স্মরণীয় ব্যক্তিত্ব — শুঁড়ি সমাজের পথপ্রদর্শক | বঙ্গীয় সাহা সমিতি',
       },
       updates: {
-        en: 'Updates & Announcements | Bangiya Saha Samity',
-        bn: 'সাম্প্রতিক খবর ও বিজ্ঞপ্তি | বঙ্গীয় সাহা সমিতি',
+        en: 'Bangiya Saha Samity – History, Documents & Social Contributions',
+        bn: 'বঙ্গীয় সাহা সমিতি — ইতিহাস, ঐতিহাসিক নথিপত্র ও সামাজিক অবদান',
       },
       contact: {
         en: 'Contact Us & Central Office | Bangiya Saha Samity',
@@ -71,6 +71,23 @@ function MainApp() {
     const titleConfig = pageTitles[activePage];
     if (titleConfig) {
       document.title = isBengali ? titleConfig.bn : titleConfig.en;
+    }
+
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      if (activePage === 'updates') {
+        metaDesc.setAttribute(
+          'content',
+          isBengali
+            ? 'বঙ্গীয় সাহা সমিতির ঐতিহাসিক নিবন্ধন নথি, সরকারি চিঠিপত্র, সামাজিক আবেদন, সংবাদপত্র সংরক্ষণাগার ও সমাজকল্যাণমূলক কর্মকাণ্ড অন্বেষণ করুন।'
+            : "Explore Bangiya Saha Samity's historical registration records, government documents, community representations, newspaper archives and social welfare activities."
+        );
+      } else {
+        metaDesc.setAttribute(
+          'content',
+          'Established 1936-37. A Social Organisation of the Scheduled Caste Sunri Community of West Bengal.'
+        );
+      }
     }
   }, [activePage, isBengali]);
 

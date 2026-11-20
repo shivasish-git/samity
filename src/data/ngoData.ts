@@ -389,6 +389,9 @@ export const KEY_ACTIVITIES = [
   }
 ];
 
+export const DEFAULT_MEMBER_AVATAR =
+  '/assets/aistudio/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector_f5edab54.jpg';
+
 export const ADVISORY_BOARD_MEMBERS = [
   {
     id: 'adv-chairperson',
@@ -416,7 +419,7 @@ export const ADVISORY_BOARD_MEMBERS = [
     bio: 'Affectionately known across the community as "Kesto Da", serving as Chief Advisor with decades of dedication to community harmony, student welfare, and cultural preservation.',
     bengaliBio: 'সমগ্র সমাজে বিশিষ্ট অভিভাবক "কেষ্ট দা" নামে পরিচিত প্রধান উপদেষ্টা; দীর্ঘদিন ধরে সমাজের ঐক্য, ছাত্রকল্যাণ ও অধিকার রক্ষায় নিরলস ভূমিকা পালন করছেন।',
     contactNote: 'Advisory Board, Bangiya Saha Samity',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   }
 ];
 
@@ -431,7 +434,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Presides over the Central Executive Committee, leading organizational policy, institutional administration, and constitutional rights safeguarding for the Sunri community.',
     bengaliBio: 'কেন্দ্রীয় কার্যনির্বাহী সমিতির সভাপতি হিসেবে প্রাতিষ্ঠানিক নীতি নির্ধারণ, প্রশাসনিক পরিচালনা এবং শুঁড়ি সমাজের সামগ্রিক অধিকার রক্ষায় নেতৃত্ব দিচ্ছেন।',
     contactNote: 'Central Secretariat, 52B Indian Mirror St',
-    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'ob-secretary',
@@ -455,7 +458,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Oversees organizational financial stewardship, annual statutory audits, Social Help for Educational Purpose (Only for Our Community) funds, and transparent institutional accounting.',
     bengaliBio: 'কোষাধ্যক্ষ হিসেবে সমিতির আর্থিক হিসাবরক্ষণ, বার্ষিক বিধিবদ্ধ অডিট ও ছাত্রাবাস এবং শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য) তহবিলের স্বচ্ছ পরিচালনা নিশ্চিত করছেন।',
     contactNote: 'Finance Desk, 52B Indian Mirror St',
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'ob-asst-sec-1',
@@ -467,7 +470,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Assists in secretarial operations, community records, youth initiatives, and administrative coordination.',
     bengaliBio: 'সহকারী সম্পাদক হিসেবে প্রশাসনিক কার্যক্রমে সহায়তা, নথিপত্র ব্যবস্থাপনা ও সামাজিক যোগাযোগে নিযুক্ত।',
     contactNote: 'Central Secretariat, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'ob-asst-sec-2',
@@ -479,7 +482,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Coordinates event logistics, student outreach, and youth fellowship programs across districts.',
     bengaliBio: 'সহকারী সম্পাদক হিসেবে বিভিন্ন কর্মসূচি পরিচালনা, শিক্ষার্থী ও যুব সমাজের সাথে সক্রিয় যোগাযোগ রক্ষা করেন।',
     contactNote: 'Central Secretariat, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80'
+    imageUrl: '/members/snehasish-biswas.jpg'
   },
   {
     id: 'ob-asst-treas-1',
@@ -491,7 +494,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Assists the Treasurer with hostel ledger records, verification of expenditures, and donation registries.',
     bengaliBio: 'সহকারী কোষাধ্যক্ষ হিসেবে দৈনন্দিন হিসাব পরীক্ষা, ছাত্রাবাস ব্যয় নিরীক্ষা ও অনুদান খতিয়ান পরিচালনায় যুক্ত।',
     contactNote: 'Finance Desk, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'ob-asst-treas-2',
@@ -503,7 +506,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Supports statutory audit reconciliations, banking transactions, and annual financial statements.',
     bengaliBio: 'সহকারী কোষাধ্যক্ষ হিসেবে ব্যাংক লেনদেন, বার্ষিক আর্থিক বিবরণী ও অডিট কার্যক্রমে সহযোগিতা করেন।',
     contactNote: 'Finance Desk, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   }
 ];
 
@@ -633,7 +636,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Affectionately known across the community as "Kesto Da", serving as Chief Advisor with decades of selfless service for community unity, student hostel support, and social welfare.',
     bengaliBio: 'সমগ্র সমাজে বিশিষ্ট অভিভাবক "কেষ্ট দা" নামে পরিচিত প্রধান উপদেষ্টা; দীর্ঘদিন ধরে সমাজের ঐক্য, ছাত্রকল্যাণ ও অধিকার রক্ষায় নিরলস ভূমিকা পালন করছেন।',
     contactNote: 'Advisory Board, Bangiya Saha Samity',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
 
   // 2. Central Office Bearers
@@ -647,7 +650,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Presides over the Central Executive Committee, leading administrative governance, community representation, and educational welfare initiatives across West Bengal.',
     bengaliBio: 'কেন্দ্রীয় কার্যনির্বাহী সমিতির সভাপতি হিসেবে সাংগঠনিক নীতি নির্ধারণ, প্রশাসনিক পরিচালনা এবং শুঁড়ি সমাজের সাংবিধানিক অধিকার সুরক্ষায় নেতৃত্ব দিচ্ছেন।',
     contactNote: 'Central Secretariat, 52B Indian Mirror St',
-    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'exec-sec',
@@ -671,7 +674,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Oversees organizational finances, annual statutory audits, banking operations, Social Help for Educational Purpose (Only for Our Community), and institutional compliance.',
     bengaliBio: 'সমিতির কোষাধ্যক্ষ হিসেবে আর্থিক হিসাবরক্ষণ, বিধিবদ্ধ বার্ষিক অডিট ও শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য) তহবিলের স্বচ্ছ পরিচালনা নিশ্চিত করছেন।',
     contactNote: 'Finance Desk, 52B Indian Mirror St',
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'exec-asst-sec-1',
@@ -683,7 +686,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Supports the Secretary in administration, legal correspondences, membership verification, and student affairs.',
     bengaliBio: 'সহকারী সম্পাদক হিসেবে প্রশাসনিক কার্যক্রমে সহায়তা, নথিপত্র ব্যবস্থাপনা ও সামাজিক যোগাযোগে নিযুক্ত।',
     contactNote: 'Central Secretariat, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'exec-asst-sec-2',
@@ -695,7 +698,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Coordinates event logistics, student outreach, and youth fellowship programs across districts.',
     bengaliBio: 'সহকারী সম্পাদক হিসেবে বিভিন্ন কর্মসূচি পরিচালনা, শিক্ষার্থী ও যুব সমাজের সাথে সক্রিয় যোগাযোগ রক্ষা করেন।',
     contactNote: 'Central Secretariat, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80'
+    imageUrl: '/members/snehasish-biswas.jpg'
   },
   {
     id: 'exec-asst-treas-1',
@@ -707,7 +710,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Assists in treasury management, daily maintenance accounts, hostel fee registers, and donor acknowledgments.',
     bengaliBio: 'সহকারী কোষাধ্যক্ষ হিসেবে দৈনন্দিন হিসাব পরীক্ষা, ছাত্রাবাস ব্যয় নিরীক্ষা ও অনুদান খতিয়ান পরিচালনায় যুক্ত।',
     contactNote: 'Finance Desk, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'exec-asst-treas-2',
@@ -719,7 +722,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Supports statutory audit reconciliations, banking transactions, and annual financial statements.',
     bengaliBio: 'সহকারী কোষাধ্যক্ষ হিসেবে ব্যাংক লেনদেন, বার্ষিক আর্থিক বিবরণী ও অডিট কার্যক্রমে সহযোগিতা করেন।',
     contactNote: 'Finance Desk, Kolkata',
-    imageUrl: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
 
   // 3. Vice Presidents
@@ -733,7 +736,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President of Bangiya Saha Samity, coordinating urban outreach, Kolkata general body meetings, and community assemblies.',
     bengaliBio: 'সমিতির সহ-সভাপতি হিসেবে কেন্দ্রীয় সম্মেলন ও মহানগরের সদস্যদের সাথে সমন্বয় সাধনে সক্রিয় ভূমিকা পালন করছেন।',
     contactNote: 'Kolkata Central Region',
-    imageUrl: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'vp-amiya-saha',
@@ -747,7 +750,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Advocate and Vice President heading legal aid counseling and district community development across Birbhum.',
     bengaliBio: 'আইনজীবী ও সহ-সভাপতি; বীরভূম জেলায় আইনি সহায়তা ও সামাজিক উন্নয়ন কার্যক্রমের দিকনির্দেশক।',
     contactNote: 'Birbhum District & Legal Cell',
-    imageUrl: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'vp-uddhab-saha',
@@ -761,7 +764,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President guiding educational welfare and grassroots outreach in Bankura district and Western Rarh Bengal.',
     bengaliBio: 'বাঁকুড়া জেলায় শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য), গ্রামীণ ছাত্রাবাস যোগাযোগ ও সামাজিক কার্যক্রমের সমন্বয়কারী সহ-সভাপতি।',
     contactNote: 'Bankura District Region',
-    imageUrl: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'vp-nikhilesh-khan',
@@ -773,7 +776,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President steering regional unity, life membership drives, and community welfare initiatives.',
     bengaliBio: 'সহ-সভাপতি হিসেবে সামাজিক ঐক্য বৃদ্ধি ও আজীবন সদস্যপদ কার্যক্রমে নিবেদিতপ্রাণ।',
     contactNote: 'Regional Liaison Council',
-    imageUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'vp-hasi-saha',
@@ -799,7 +802,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President coordinating community welfare and student mentoring programs in Hooghly district.',
     bengaliBio: 'হুগলি জেলায় সমাজকল্যাণ, ছাত্রছাত্রীদের দিকনির্দেশনা ও সাংগঠনিক সম্প্রসারণে নিবেদিত সহ-সভাপতি।',
     contactNote: 'Hooghly District Region',
-    imageUrl: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'vp-somnath-saha',
@@ -811,7 +814,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President guiding annual general conventions, civic representations, and cultural heritage documentation.',
     bengaliBio: 'বার্ষিক সম্মেলন পরিচালনা ও সাংস্কৃতিক ঐতিহ্য সংরক্ষণে সক্রিয় সহ-সভাপতি।',
     contactNote: 'South Bengal Coordination',
-    imageUrl: 'https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'vp-sadhan-mondal',
@@ -825,7 +828,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President advancing grassroots community organization and rural student welfare in Bankura district.',
     bengaliBio: 'বাঁকুড়া জেলায় স্থানীয় স্তরে সামাজিক ঐক্য ও গ্রামীণ ছাত্রদের কল্যাণে নিয়োজিত সহ-সভাপতি।',
     contactNote: 'Bankura District Region',
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
 
   // 4. Notable Executive Committee Members
@@ -839,7 +842,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Executive committee member guiding community healthcare assistance, medical camps, and hostel student wellness.',
     bengaliBio: 'কার্যনির্বাহী সদস্য ও চিকিৎসক; গ্রামীণ শিক্ষার্থীদের স্বাস্থ্যসেবা ও সমাজের দুঃস্থ মানুষের চিকিৎসা সহায়তায় অগ্রণী।',
     contactNote: 'Healthcare & Medical Aid Desk',
-    imageUrl: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'cm-swarnova-nayek',
@@ -853,7 +856,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Executive committee member coordinating youth initiatives, Social Help for Educational Purpose (Only for Our Community), and community outreach across Howrah.',
     bengaliBio: 'হাওড়া জেলার কার্যনির্বাহী সদস্য; তরুণ প্রজন্মকে সামাজিক কাজে উদ্বুদ্ধকরণ ও শিক্ষার উদ্দেশ্যে সামাজিক সহায়তার (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য) সমন্বয়কারী।',
     contactNote: 'Howrah District Coordination',
-    imageUrl: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   },
   {
     id: 'cm-pijus-saha',
@@ -882,7 +885,7 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Executive committee member organizing rural educational support and district coordination across East Burdwan.',
     bengaliBio: 'পূর্ব বর্ধমান জেলার কার্যনির্বাহী সদস্য; গ্রামীণ শিক্ষা ও সামাজিক সমন্বয়ক।',
     contactNote: 'East Burdwan Coordination',
-    imageUrl: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=400&q=80'
+    imageUrl: DEFAULT_MEMBER_AVATAR
   }
 ];
 
