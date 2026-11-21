@@ -98,15 +98,15 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               </div>
             </div>
 
-            {/* Right: Grounded Photo & Institutional Badge (Sticky within column) */}
-            <div className="lg:col-span-5 relative">
-              <div className="lg:sticky lg:top-28 w-full max-w-[340px] sm:max-w-[360px] mx-auto lg:ml-auto">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 bg-blue-900">
-                  <div className="relative aspect-[4/3] overflow-hidden">
+            {/* Right: Grounded Photo & Institutional Badge */}
+            <div className="lg:col-span-5 relative flex">
+              <div className="w-full h-full flex">
+                <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 bg-blue-900">
+                  <div className="relative w-full aspect-[4/3] lg:aspect-auto lg:h-full lg:min-h-[380px] overflow-hidden">
                     <img
                       src="/assets/aistudio/Bright_Organized_Home_Office_8db19cc2.png"
                       alt="Bangiya Saha Samity Central Office, Students Hostel and Guest Room"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full lg:absolute lg:inset-0 object-cover object-center"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/30 to-transparent"></div>
                     
