@@ -88,7 +88,7 @@ export const TRANSLATIONS = {
       { label: 'Historic Foundation', value: '1936-37', subtext: 'Maa Jagat Janani Temple, 77 Maniktala St' },
       { label: 'SC Constitutional Recognition', value: '1950', subtext: 'Included by Dr. Baba Saheb Ambedkar' },
       { label: 'Central Office Acquired', value: '1956', subtext: '4-Storeyed Building, 52B Indian Mirror St' },
-      { label: 'Hostel & Guest Room', value: 'Up to 50', subtext: 'Hostel Arrangements & Member Guest Room' },
+      { label: 'Hostel & Guest Room', value: '32 Boys & 20 Girls', subtext: 'Hostel Accommodation & Member Guest Room' },
     ],
 
     // Mission / Objectives Section
@@ -198,7 +198,7 @@ export const TRANSLATIONS = {
       { label: 'ঐতিহাসিক প্রতিষ্ঠা', value: '১৯৩৬-৩৭', subtext: 'মা জগৎ জননী মন্দির, ৭৭ মানিকতলা স্ট্রিট' },
       { label: 'সংবিধানে তপশিলি স্বীকৃতি', value: '১৯৫০', subtext: 'ড. বাবাসাহেব আম্বেদকর কর্তৃক সংবিধানে অন্তর্ভুক্ত' },
       { label: 'স্থায়ী কেন্দ্রীয় কার্যালয়', value: '১৯৫৬', subtext: '৪ তলা ভবন, ৫২বি ইন্ডিয়ান মিরর স্ট্রিট' },
-      { label: 'ছাত্রাবাস ও অতিথি কক্ষ', value: '৫০ আসন পর্যন্ত', subtext: 'আবাসিক ব্যবস্থা ও সদস্যদের জন্য অতিথি কক্ষ' },
+      { label: 'ছাত্রাবাস ও অতিথি কক্ষ', value: '৩২ ছাত্র ও ২০ ছাত্রী', subtext: 'আবাসিক ছাত্রাবাস ও সদস্যদের জন্য অতিথি কক্ষ' },
     ],
 
     // Mission / Objectives Section
@@ -450,10 +450,10 @@ export const LOCALIZED_MILESTONES: Record<Language, LocalizedMilestone[]> = {
     },
     {
       year: '2018 – Present',
-      title: '50-Student Hostel Expansion, Female Wing & Guest Room',
+      title: 'Hostel Accommodation for 32 Boys & 20 Girls & Guest Room',
       location: '52B, Indian Mirror Street, Kolkata – 700013',
-      description: 'Through the dedicated efforts of the Central Executive Committee and Advisory Board, the four-storeyed Central Office building underwent extensive modern renovations: residential hostel arrangements are made for up to 50 students (with dedicated female facilities opened in 2018, reflecting our special priority for female higher education), alongside a Guest Room facility for community members.',
-      badge: '50-Bed Hostel & Guest Room'
+      description: 'Through the dedicated efforts of the Central Executive Committee and Advisory Board, the four-storeyed Central Office building underwent extensive modern renovations: dedicated hostel accommodation facilities are maintained for 32 boys & 20 girls (with separate female facilities opened in 2018, reflecting our special priority for female higher education), alongside a Guest Room facility for community members.',
+      badge: '32 Boys & 20 Girls Hostel'
     }
   ],
 
@@ -488,10 +488,10 @@ export const LOCALIZED_MILESTONES: Record<Language, LocalizedMilestone[]> = {
     },
     {
       year: '২০১৮ – বর্তমান',
-      title: '৫০ আসনের ছাত্রাবাস, ছাত্রী শাখা ও অতিথি কক্ষ',
+      title: '৩২ ছাত্র ও ২০ ছাত্রীর ছাত্রাবাস আবাসন ও অতিথি কক্ষ',
       location: '৫২বি, ইন্ডিয়ান মিরর স্ট্রিট, কলকাতা – ৭০০০১৩',
-      description: 'কেন্দ্রীয় কার্যনির্বাহী কমিটি ও উপদেষ্টা মণ্ডলীর পরিচালনায় ৫২বি কেন্দ্রীয় কার্যালয়ের সার্বিক সংস্কার এবং ৫০ জন শিক্ষার্থীর জন্য আবাসিক ব্যবস্থা করা হয় (২০১৮ সালে নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার দিয়ে ছাত্রীদের বিভাগ চালু হয়)। পাশাপাশি সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ রয়েছে।',
-      badge: '৫০ আসনের ছাত্রাবাস ও অতিথি কক্ষ'
+      description: 'কেন্দ্রীয় কার্যনির্বাহী কমিটি ও উপদেষ্টা মণ্ডলীর পরিচালনায় ৫২বি কেন্দ্রীয় কার্যালয়ের সার্বিক সংস্কার এবং ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা গড়ে তোলা হয় (২০১৮ সালে নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার দিয়ে ছাত্রীদের পৃথক বিভাগ চালু হয়)। পাশাপাশি সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ রয়েছে।',
+      badge: '৩২ ছাত্র ও ২০ ছাত্রীর ছাত্রাবাস'
     }
   ]
 };
@@ -584,7 +584,7 @@ export const LOCALIZED_LEGAL_FAQS: Record<Language, LocalizedLegalFAQ[]> = {
       id: 'faq-3',
       articleOrAct: '52B Indian Mirror Street Hostel & Guest Room',
       question: 'How does the Student Hostel operate, and is a Guest Room facility available?',
-      answer: 'Acquired in 1956 and located at 52B, Indian Mirror Street (opposite G.D. Hospital, Taltala), the four-storeyed Central Office building is where residential hostel arrangements are made for up to 50 rural college and university students (with a dedicated female wing introduced in 2018), alongside a Guest Room facility for community members visiting Kolkata.',
+      answer: 'Acquired in 1956 and located at 52B, Indian Mirror Street (opposite G.D. Hospital, Taltala), the four-storeyed Central Office building provides a dedicated hostel accommodation facility for 32 boys & 20 girls pursuing college and university studies in Kolkata (with a separate female wing introduced in 2018), alongside a Guest Room facility for community members visiting Kolkata.',
       practicalStep: 'Eligible students and community members seeking hostel or Guest Room accommodation can apply directly at our Central Office.'
     },
     {
@@ -622,7 +622,7 @@ export const LOCALIZED_LEGAL_FAQS: Record<Language, LocalizedLegalFAQ[]> = {
       id: 'faq-3',
       articleOrAct: '৫২বি ইন্ডিয়ান মিরর স্ট্রিট ছাত্রাবাস ও অতিথি কক্ষ',
       question: 'সম্প্রসারিত ছাত্রাবাস কীভাবে পরিচালিত হয় এবং অতিথি কক্ষের কী কী সুবিধা রয়েছে?',
-      answer: '১৯৫৬ সালে প্রতিষ্ঠিত ৫২বি, ইন্ডিয়ান মিরর স্ট্রিটে (জি.ডি. হাসপাতালের বিপরীতে, তালতলা) অবস্থিত চারতলা কেন্দ্রীয় কার্যালয় ভবনে গ্রামীণ শিক্ষার্থীদের জন্য ৫০ আসন পর্যন্ত ছাত্রাবাসের আবাসিক ব্যবস্থা করা হয় (২০১৮ সালে ছাত্রীদের জন্য বিশেষ শাখা চালু হয়েছে) এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ রয়েছে।',
+      answer: '১৯৫৬ সালে প্রতিষ্ঠিত ৫২বি, ইন্ডিয়ান মিরর স্ট্রিটে (জি.ডি. হাসপাতালের বিপরীতে, তালতলা) অবস্থিত চারতলা কেন্দ্রীয় কার্যালয় ভবনে গ্রামীণ শিক্ষার্থীদের জন্য ৩২ জন ছাত্র ও ২০ জন ছাত্রীর ছাত্রাবাসের আবাসিক ব্যবস্থা রয়েছে (২০১৮ সালে ছাত্রীদের জন্য পৃথক শাখা চালু হয়েছে) এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ রয়েছে।',
       practicalStep: 'উচ্চশিক্ষার জন্য আগ্রহী ছাত্রছাত্রী ও অতিথি কক্ষ ব্যবহারের জন্য সমাজের সদস্যরা সরাসরি কেন্দ্রীয় কার্যালয়ে আবেদন করতে পারেন।'
     },
     {

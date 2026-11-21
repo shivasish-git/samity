@@ -236,9 +236,9 @@ export const CulturalHeritageView: React.FC<CulturalHeritageViewProps> = ({ onNa
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-2">
             <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 text-center space-y-2">
-              <div className="text-3xl font-bold font-serif-heading text-blue-900">{isBengali ? '৫০+' : '50+'}</div>
-              <div className="text-xs font-semibold text-slate-700">{isBengali ? 'আবাসিক শিক্ষার্থী' : 'Hostel Student Residents'}</div>
-              <div className="text-[11px] text-slate-500">{isBengali ? 'প্রতি শিক্ষাবর্ষে গ্রাম থেকে আসা ছাত্রছাত্রী' : 'Subsidized stay in central Kolkata'}</div>
+              <div className="text-2xl sm:text-3xl font-bold font-serif-heading text-blue-900">{isBengali ? '৩২ ছাত্র ও ২০ ছাত্রী' : '32 Boys & 20 Girls'}</div>
+              <div className="text-xs font-semibold text-slate-700">{isBengali ? 'ছাত্রাবাস আবাসন সুবিধা' : 'Hostel Accommodation Facility'}</div>
+              <div className="text-[11px] text-slate-500">{isBengali ? 'কলকাতার কেন্দ্রস্থলে ছাত্রছাত্রীদের পৃথক আবাসিক ব্যবস্থা' : 'Dedicated boys & girls hostel stay in central Kolkata'}</div>
             </div>
 
             <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 text-center space-y-2">
@@ -333,10 +333,18 @@ export const CulturalHeritageView: React.FC<CulturalHeritageViewProps> = ({ onNa
             <h3 className="text-2xl font-serif-heading font-bold">
               {isBengali ? 'আমাদের ঐতিহ্য সংরক্ষণে আপনার অবদান রাখুন' : 'Preserve Our Living Heritage'}
             </h3>
-            <p className="text-white/90 text-sm max-w-xl">
-              {isBengali
-                ? 'ঐতিহাসিক দলিল, পুরাতন ছবি, নিবন্ধ প্রকাশ বা ছাত্রাবাস, অতিথি কক্ষ (Guest Room) ও পাঠাগার সমৃদ্ধ করতে আজই বঙ্গীয় সাহা সমিতির সাথে যুক্ত হন।'
-                : 'Contribute historical papers, ancestral photographs, or donate towards the Student Hostel, Guest Room & Library Endowment.'}
+            <p className="text-white/90 text-sm max-w-4xl leading-relaxed">
+              {isBengali ? (
+                <>
+                  ইতিবাচক সামাজিক পরিবর্তনের অংশ হোন এবং শুঁড়ি সমাজের উজ্জ্বল ভবিষ্যতের জন্য অবদান রাখুন।
+                  <span className="block">আপনার সহায়তা আমাদের ঐতিহ্য সংরক্ষণ, ভবিষ্যৎ প্রজন্মের ক্ষমতায়ন এবং আমাদের সমাজকে আরও সুদৃঢ় করতে সাহায্য করবে।</span>
+                </>
+              ) : (
+                <>
+                  Be a part of positive social change and contribute towards a brighter future for the Sunri Samaj.
+                  <span className="block">Your support will help preserve our heritage, empower future generations, and strengthen our community</span>
+                </>
+              )}
             </p>
           </div>
 

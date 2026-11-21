@@ -73,7 +73,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-orange-400 shrink-0" />
-                  <span>{isBengali ? '৫০ আসনের ছাত্রাবাস ও সদস্যদের জন্য অতিথি কক্ষ' : '50-Seat Hostel (Female Wing) & Member Guest Room'}</span>
+                  <span>{isBengali ? '৩২ জন ছাত্র ও ২০ জন ছাত্রীর ছাত্রাবাস ও অতিথি কক্ষ' : 'Hostel Facility for 32 Boys & 20 Girls & Member Guest Room'}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-orange-400 shrink-0" />
@@ -118,8 +118,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
                     <div className="absolute bottom-2.5 inset-x-2.5 text-white">
                       <p className="text-[11px] italic text-blue-100 leading-snug font-serif-heading line-clamp-3">
                         {isBengali 
-                          ? '"১৯৩৪ সালে মা জগৎ জননী মন্দিরে শুরু হয়ে আজ ৫০ জন শিক্ষার্থীর আবাসিক ব্যবস্থা ও সমাজের সদস্যদের অতিথি কক্ষসহ পশ্চিমবঙ্গের শুঁড়ি সমাজের আশ্রয়স্থল।"'
-                          : '"Founded in 1934 at Maa Jagat Janani Temple, growing into our Central Office with hostel arrangements for 50 students and a Guest Room for community members."'}
+                          ? '"১৯৩৪ সালে মা জগৎ জননী মন্দিরে শুরু হয়ে আজ ৩২ জন ছাত্র ও ২০ জন ছাত্রীর ছাত্রাবাস আবাসন ও সমাজের সদস্যদের অতিথি কক্ষসহ পশ্চিমবঙ্গের শুঁড়ি সমাজের আশ্রয়স্থল।"'
+                          : '"Founded in 1934 at Maa Jagat Janani Temple, growing into our Central Office with hostel accommodation for 32 boys & 20 girls and a Guest Room for community members."'}
                       </p>
                       <p className="text-[10px] text-amber-300 font-semibold pt-0.5">
                         {isBengali ? '— বঙ্গীয় সাহা সমিতি (শুঁড়ি সমাজ)' : '— Bangiya Saha Samity (Sunri Samaj)'}
@@ -147,8 +147,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               </h2>
               <p className="text-slate-700 leading-relaxed text-base">
                 {isBengali 
-                  ? 'বঙ্গীয় সাহা সমিতি (শুঁড়ি সমাজ) ১৯৩৪ সালে কলকাতার ৭৭ মানিকতলা স্ট্রিটের (সিমলা) মা জগৎ জননী মন্দিরে সমাজের বিশিষ্ট ব্যক্তিবর্গের উদ্যোগে প্রতিষ্ঠিত হয় এবং ১৯৩৬-৩৭ সালে বিধিবদ্ধভাবে নিবন্ধিত হয় (পূর্বতন নিবন্ধন নং ০৪৫২২; নতুন রেজিস্ট্রেশন নং SO969057)। ১৯৫০ সালে বাবাসাহেব ড. বি. আর. আম্বেদকর ভারতের সংবিধানে শুঁড়ি সম্প্রদায়কে তপশিলি জাতি হিসেবে অন্তর্ভুক্ত করেন। ১৯৫৬ সালে ৫২বি ইন্ডিয়ান মিরর স্ট্রিটে নিজস্ব জমিতে ৪ তলা কেন্দ্রীয় কার্যালয় নির্মিত হয়, যেখানে বর্তমানে ৫০ জন গ্রামীণ শিক্ষার্থীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা করা হয় (২০১৮ সালে ছাত্রীদের পৃথক শাখা চালু হয়) এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধাও রয়েছে।'
-                  : 'Bangiya Saha Samity (Sunri Samaj) was established in 1934 at Maa Jagat Janani Temple, 77 Maniktala Street, Kolkata (Simla) by distinguished community leaders, and formally incorporated under Registration No. 04522 of 1936–37 (New Registration No. SO969057). In 1950, Babasaheb Dr. B. R. Ambedkar enshrined the Sunri community in the Constitution of India as a Scheduled Caste. In 1956, our four-storeyed Central Office was purchased and erected at 52B Indian Mirror Street, where residential hostel arrangements are made for up to 50 students (with a dedicated female wing introduced in 2018) alongside a Guest Room facility for community members.'}
+                  ? 'বঙ্গীয় সাহা সমিতি (শুঁড়ি সমাজ) ১৯৩৪ সালে কলকাতার ৭৭ মানিকতলা স্ট্রিটের (সিমলা) মা জগৎ জননী মন্দিরে সমাজের বিশিষ্ট ব্যক্তিবর্গের উদ্যোগে প্রতিষ্ঠিত হয় এবং ১৯৩৬-৩৭ সালে বিধিবদ্ধভাবে নিবন্ধিত হয় (পূর্বতন নিবন্ধন নং ০৪৫২২; নতুন রেজিস্ট্রেশন নং SO969057)। ১৯৫০ সালে বাবাসাহেব ড. বি. আর. আম্বেদকর ভারতের সংবিধানে শুঁড়ি সম্প্রদায়কে তপশিলি জাতি হিসেবে অন্তর্ভুক্ত করেন। ১৯৫৬ সালে ৫২বি ইন্ডিয়ান মিরর স্ট্রিটে নিজস্ব জমিতে ৪ তলা কেন্দ্রীয় কার্যালয় নির্মিত হয়, যেখানে বর্তমানে ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা (হোস্টেল সুবিধা) রয়েছে (২০১৮ সালে ছাত্রীদের পৃথক শাখা চালু হয়) এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধাও রয়েছে।'
+                  : 'Bangiya Saha Samity (Sunri Samaj) was established in 1934 at Maa Jagat Janani Temple, 77 Maniktala Street, Kolkata (Simla) by distinguished community leaders, and formally incorporated under Registration No. 04522 of 1936–37 (New Registration No. SO969057). In 1950, Babasaheb Dr. B. R. Ambedkar enshrined the Sunri community in the Constitution of India as a Scheduled Caste. In 1956, our four-storeyed Central Office was purchased and erected at 52B Indian Mirror Street, featuring a hostel accommodation facility for 32 boys & 20 girls (with a dedicated female wing introduced in 2018) alongside a Guest Room facility for community members.'}
               </p>
               <div className="flex flex-wrap gap-4 pt-2">
                 <a
@@ -190,7 +190,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
                 </div>
                 <div className="p-3 bg-white rounded-lg border border-slate-200">
                   <div className="text-xs text-slate-500">{isBengali ? 'ছাত্রাবাস ও অতিথি কক্ষ' : 'Hostel & Guest Room'}</div>
-                  <div className="font-bold text-orange-600">{isBengali ? '৫০ জন শিক্ষার্থী ও সদস্যদের অতিথি কক্ষ' : 'Up to 50 Students & Member Guest Room'}</div>
+                  <div className="font-bold text-orange-600">{isBengali ? '৩২ ছাত্র ও ২০ ছাত্রীর আবাসন ও অতিথি কক্ষ' : '32 Boys & 20 Girls Hostel & Member Guest Room'}</div>
                 </div>
                 <div className="p-3 bg-white rounded-lg border border-slate-200">
                   <div className="text-xs text-slate-500">{isBengali ? 'সুপ্রিম কোর্ট রায়' : 'Supreme Court Verdict'}</div>
@@ -239,7 +239,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-blue-900 shrink-0 mt-0.5" />
-                <span>{isBengali ? '৫২বি ইন্ডিয়ান মিরর স্ট্রিটে ৫০ জন গ্রামীণ শিক্ষার্থীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা করা হয় এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা রয়েছে।' : 'Residential hostel arrangements are made for 50 rural students at 52B Indian Mirror St, alongside a Guest Room facility for community members.'}</span>
+                <span>{isBengali ? '৫২বি ইন্ডিয়ান মিরর স্ট্রিটে ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা (হোস্টেল সুবিধা) রয়েছে এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা রয়েছে।' : 'Hostel accommodation facility for 32 boys & 20 girls at 52B Indian Mirror St, alongside a Guest Room facility for community members.'}</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-blue-900 shrink-0 mt-0.5" />

@@ -109,8 +109,8 @@ export const ContactView: React.FC = () => {
                 </p>
                 <p className="text-xs font-semibold text-blue-900 bg-blue-50/70 px-3 py-2 rounded-lg border border-blue-100">
                   {isBengali
-                    ? '• সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ রয়েছে • ৫০ আসনের ছাত্রাবাসে আবাসিক ব্যবস্থা করা হয়'
-                    : '• Guest Room facility available for community members • Hostel residential arrangements made for up to 50 students'}
+                    ? '• সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ রয়েছে • ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা রয়েছে'
+                    : '• Guest Room facility available for community members • Hostel accommodation facility for 32 boys & 20 girls'}
                 </p>
                 <div className="inline-block px-2.5 py-1 rounded bg-blue-50 text-blue-900 font-mono text-xs font-bold">
                   {isBengali ? NGO_DETAILS.bengaliHeadOffice.regdNo : NGO_DETAILS.headOffice.regdNo}

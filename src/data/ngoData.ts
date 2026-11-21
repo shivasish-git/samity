@@ -8,7 +8,7 @@ export const NGO_DETAILS = {
   establishedYear: '1934 (Regd. 1936–37)',
   birthplace: '77, Maniktala Street, Kolkata – 700006 (Simla) — Maa Jagat Janani Temple',
   headquarters: '52B, INDIAN MIRROR STREET, KOLKATA-700013 (Opposite G. D. Hospital), Taltala (Central Office)',
-  hostelInfo: 'Student Hostel (Residential arrangements made for up to 50 students, including Female Wing since 2018) & Guest Room for Community Members',
+  hostelInfo: 'Student Hostel Accommodation Facility for 32 Boys & 20 Girls (Female Wing since 2018) & Guest Room for Community Members',
   buildingInfo: 'Four-Storeyed Central Office Building at 52B, INDIAN MIRROR STREET, KOLKATA-700013 (Opposite G. D. Hospital), Taltala, with Student Hostel & Guest Room Facility',
   constitutionalRecognition: 'British Govt of India Act 1935 & Indian Constitution 1950 by Dr. B.R. Ambedkar',
   registrationNo: '04522 of 1936–37',
@@ -51,7 +51,7 @@ export const IMPACT_METRICS = [
   { label: 'Foundation & Regd.', value: '1934 / 1936-37', subtext: '77 Maniktala St, Simla (Regd. No. 4522)' },
   { label: 'SC Recognition', value: '1935 & 1950', subtext: 'British Act 1935 & Babasaheb Dr. Ambedkar' },
   { label: 'Central Office Acquired', value: '1956', subtext: '52B Indian Mirror St (Opp. G.D. Hospital)' },
-  { label: 'Hostel & Guest Room', value: 'Up to 50 Students', subtext: 'Female Wing (Est. 2018) & Member Guest Room' },
+  { label: 'Hostel & Guest Room', value: '32 Boys & 20 Girls', subtext: 'Hostel Accommodation (Female Wing 2018) & Member Guest Room' },
   { label: 'Supreme Court Victory', value: 'Sept 5, 2000', subtext: 'SC Certificates Restored via Sadhan Pande' },
   { label: 'Community Service', value: '90+ Years', subtext: 'Continuous educational & social welfare programs' }
 ];
@@ -103,14 +103,14 @@ export const HISTORICAL_MILESTONES = [
   },
   {
     year: '2018 – Present',
-    title: 'Hostel Expansion to 50 Students, Female Wing & Guest Room',
-    bengaliTitle: 'ছাত্রাবাস সম্প্রসারণ (৫০ জন শিক্ষার্থী), ছাত্রী বিভাগ ও অতিথি কক্ষ',
+    title: 'Hostel Facility for 32 Boys & 20 Girls, Female Wing & Guest Room',
+    bengaliTitle: 'ছাত্রাবাস আবাসন ব্যবস্থা (৩২ ছাত্র ও ২০ ছাত্রী), ছাত্রী বিভাগ ও অতিথি কক্ষ',
     location: '52B, Indian Mirror Street, Kolkata – 700013',
     bengaliLocation: '৫২বি, ইন্ডিয়ান মিরর স্ট্রিট, কলকাতা – ৭০০০১৩',
-    description: 'Under the guidance of the Executive Committee, residential hostel arrangements were modernized for up to 50 rural students with dedicated female student facilities instituted in 2018, alongside a Guest Room facility for community members. The Samity continues Social Help for Educational Purpose (Only for Our Community), prioritizing female higher education.',
-    bengaliDescription: 'কার্যনির্বাহী সমিতির পরিচালনায় কেন্দ্রীয় ছাত্রাবাসের আধুনিকীকরণ করে ৫০ জন গ্রামীণ শিক্ষার্থীর আবাসিক ব্যবস্থা করা হয় এবং ২০১৮ সালে ছাত্রীদের জন্য স্বতন্ত্র আবাসন ব্যবস্থা ও সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা চালু হয়। সমিতি শুধুমাত্র আমাদের সম্প্রদায়ের জন্য শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা ও নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার দিয়ে কাজ করে চলেছে।',
+    description: 'Under the guidance of the Executive Committee, the residential hostel was modernized with dedicated accommodation facilities for 32 boys & 20 girls (with separate female student facilities instituted in 2018), alongside a Guest Room facility for community members. The Samity continues Social Help for Educational Purpose (Only for Our Community), prioritizing female higher education.',
+    bengaliDescription: 'কার্যনির্বাহী সমিতির পরিচালনায় কেন্দ্রীয় ছাত্রাবাসের আধুনিকীকরণ করে ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য পৃথক আবাসিক ব্যবস্থা (হোস্টেল সুবিধা) গড়ে তোলা হয় এবং ২০১৮ সালে ছাত্রীদের জন্য স্বতন্ত্র আবাসন ব্যবস্থা ও সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধা চালু হয়। সমিতি শুধুমাত্র আমাদের সম্প্রদায়ের জন্য শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা ও নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার দিয়ে কাজ করে চলেছে।',
     badge: 'Modern Revival',
-    bengaliBadge: 'আধুনিক সংস্কার ও ৫০ আসন'
+    bengaliBadge: 'আধুনিক সংস্কার (৩২ ছাত্র ও ২০ ছাত্রী)'
   }
 ];
 
@@ -251,7 +251,7 @@ export const LEGAL_FAQS: LegalFAQ[] = [
     id: 'faq-3',
     articleOrAct: 'Rural Students Welfare Initiative & Guest Room (Est. 1956)',
     question: 'Who can apply for the Student Hostel and Guest Room at 52B Indian Mirror Street?',
-    answer: 'In our four-storeyed Central Office building, residential hostel arrangements are made for up to 50 rural students (with a dedicated female wing introduced in 2018) pursuing higher education in Kolkata colleges, and a Guest Room facility is also available for community members.',
+    answer: 'In our four-storeyed Central Office building, a dedicated hostel accommodation facility is maintained for 32 boys & 20 girls (with a separate female wing introduced in 2018) pursuing higher education in Kolkata colleges, and a Guest Room facility is also available for community members.',
     practicalStep: 'Students and community members seeking hostel or Guest Room accommodation can submit an application directly at our Central Office, 52B Indian Mirror Street, Kolkata - 700013.'
   },
   {
@@ -366,11 +366,11 @@ export const KEY_ACTIVITIES = [
     title: 'Educational Support & Social Help (Only for Our Community)',
     bengaliTitle: 'শিক্ষা বিস্তার, ছাত্রাবাস ও সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য)',
     category: 'Educational Support',
-    description: 'Residential arrangements are made at 52B Indian Mirror St for up to 50 rural students, alongside Social Help for Educational Purpose (Only for Our Community) with special priority for female higher education.',
-    bengaliDescription: 'কলকাতায় উচ্চশিক্ষারত ৫০ জন গ্রামীণ শিক্ষার্থীর জন্য আবাসিক ব্যবস্থা করা হয় (২০১৮ সাল থেকে ছাত্রী শাখা) এবং শুধুমাত্র আমাদের সম্প্রদায়ের জন্য শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা ও নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার।',
+    description: 'Hostel accommodation facility at 52B Indian Mirror St for 32 boys & 20 girls, alongside Social Help for Educational Purpose (Only for Our Community) with special priority for female higher education.',
+    bengaliDescription: 'কলকাতায় উচ্চশিক্ষারত ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা (২০১৮ সাল থেকে পৃথক ছাত্রী শাখা) এবং শুধুমাত্র আমাদের সম্প্রদায়ের জন্য শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা ও নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার।',
     icon: 'GraduationCap',
-    highlights: ['50-student hostel arrangements', 'Female higher education priority', 'Social Help for Educational Purpose (Only for Our Community)', 'Educational book grants'],
-    bengaliHighlights: ['৫০ আসনের ছাত্রাবাসে আবাসিক ব্যবস্থা', 'নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার', 'শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য)', 'বিনামূল্যে পাঠ্যপুস্তক অনুদান'],
+    highlights: ['Hostel accommodation for 32 boys & 20 girls', 'Female higher education priority', 'Social Help for Educational Purpose (Only for Our Community)', 'Educational book grants'],
+    bengaliHighlights: ['৩২ জন ছাত্র ও ২০ জন ছাত্রীর ছাত্রাবাস আবাসন সুবিধা', 'নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার', 'শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য)', 'বিনামূল্যে পাঠ্যপুস্তক অনুদান'],
     badge: 'Education',
     bengaliBadge: 'শিক্ষা বিস্তার'
   },
@@ -486,9 +486,9 @@ export const CENTRAL_OFFICE_BEARERS = [
   },
   {
     id: 'ob-asst-treas-1',
-    name: 'Ujjal Biswas',
+    name: 'Ujjal Biswai',
     role: 'Asstt. Treasurer',
-    bengaliName: 'উজ্জ্বল বিশ্বাস',
+    bengaliName: 'উজ্জ্বল বিশ্বাই',
     bengaliRole: 'সহকারী কোষাধ্যক্ষ',
     tier: 'Secretariat' as const,
     bio: 'Assists the Treasurer with hostel ledger records, verification of expenditures, and donation registries.',
@@ -660,8 +660,8 @@ export const LEADERSHIP_MEMBERS = [
     role: 'Secretary',
     bengaliRole: 'সম্পাদক',
     tier: 'OfficeBearer' as const,
-    bio: 'Leads the Central Secretariat, overseeing daily administrative operations, 50-student residential hostel administration at 52B Indian Mirror St, publications, and state-wide member relations.',
-    bengaliBio: 'সমিতির সম্পাদক হিসেবে কেন্দ্রীয় কার্যালয় পরিচালনা, ৫০ আসনের ছাত্রাবাস প্রশাসন, প্রকাশনা ও রাজ্যব্যাপী সদস্য সমন্বয়ের সার্বিক দায়িত্ব পালন করছেন।',
+    bio: 'Leads the Central Secretariat, overseeing daily administrative operations, hostel accommodation administration (32 boys & 20 girls) at 52B Indian Mirror St, publications, and state-wide member relations.',
+    bengaliBio: 'সমিতির সম্পাদক হিসেবে কেন্দ্রীয় কার্যালয় পরিচালনা, ৩২ জন ছাত্র ও ২০ জন ছাত্রীর ছাত্রাবাস প্রশাসন, প্রকাশনা ও রাজ্যব্যাপী সদস্য সমন্বয়ের সার্বিক দায়িত্ব পালন করছেন।',
     contactNote: 'Central Secretariat, 52B Indian Mirror St',
     imageUrl: '/members/subir-saha.jpg'
   },
@@ -703,8 +703,8 @@ export const LEADERSHIP_MEMBERS = [
   },
   {
     id: 'exec-asst-treas-1',
-    name: 'Ujjal Biswas',
-    bengaliName: 'উজ্জ্বল বিশ্বাস',
+    name: 'Ujjal Biswai',
+    bengaliName: 'উজ্জ্বল বিশ্বাই',
     role: 'Asstt. Treasurer',
     bengaliRole: 'সহকারী কোষাধ্যক্ষ',
     tier: 'Secretariat' as const,
@@ -907,8 +907,8 @@ export const ORGANIZATIONAL_HIERARCHY = [
   {
     level: 'Tier 3: Vice Presidents’ Council & Joint Secretariat',
     bengaliLevel: 'তৃতীয় স্তর: সহ-সভাপতি পরিষদ ও সহকারী সচিবালয়',
-    desc: '8 Regional Vice Presidents (covering Birbhum, Bankura, Hooghly, etc.) alongside Assistant Secretaries (Sandip Khan, Snehasish Biswas) and Assistant Treasurers (Ujjal Biswas, Mrinal Saha).',
-    bengaliDesc: '৮ জন সহ-সভাপতি (বীরভূম, বাঁকুড়া, হুগলি ইত্যাদি অঞ্চল), সহকারী সম্পাদকবৃন্দ (সন্দীপ খাঁ, স্নেহাশিস বিশ্বাস) এবং সহকারী কোষাধ্যক্ষবৃন্দ (উজ্জ্বল বিশ্বাস, মৃণাল সাহা)।'
+    desc: '8 Regional Vice Presidents (covering Birbhum, Bankura, Hooghly, etc.) alongside Assistant Secretaries (Sandip Khan, Snehasish Biswas) and Assistant Treasurers (Ujjal Biswai, Mrinal Saha).',
+    bengaliDesc: '৮ জন সহ-সভাপতি (বীরভূম, বাঁকুড়া, হুগলি ইত্যাদি অঞ্চল), সহকারী সম্পাদকবৃন্দ (সন্দীপ খাঁ, স্নেহাশিস বিশ্বাস) এবং সহকারী কোষাধ্যক্ষবৃন্দ (উজ্জ্বল বিশ্বাই, মৃণাল সাহা)।'
   },
   {
     level: 'Tier 4: General Executive Committee (16 Members)',
@@ -995,7 +995,7 @@ export const CULTURAL_HERITAGE_ITEMS = [
       'তৎকালীন বিধায়ক শ্রী সাধন পাণ্ডের ঐকান্তিক মধ্যস্থতা',
       '৫ সেপ্টেম্বর ২০০০ রাজ্য মুখ্যসচিবের নির্দেশে শংসাপত্র পুনরায় চালু'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1453733197781-704fa5988299?auto=format&fit=crop&w=800&q=80'
+    imageUrl: '/heritage/supreme-court-india.jpg'
   },
   {
     id: 'festivals-rituals',
@@ -1019,7 +1019,7 @@ export const CULTURAL_HERITAGE_ITEMS = [
       'বাবাসাহেব আম্বেদকর জয়ন্তী ও সংবিধান সচেতনতা দিবস পালন',
       'পহেলা বৈশাখ ও মিলনমেলা উৎসব'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1514222709107-a180c68d72b4?auto=format&fit=crop&w=800&q=80'
+    imageUrl: '/assets/aistudio/image_73b9eea9.png'
   }
 ];
 
@@ -1085,8 +1085,8 @@ export const PAST_EVENTS = [
     venue: '151 Vivekananda Road, Kolkata – 700006',
     bengaliVenue: '১৫১ বিবেকানন্দ রোড, কলকাতা – ৭০০০১৬',
     category: 'Past' as const,
-    description: 'Grand assembly convened by the Executive Committee, celebrating the hostel expansion to 50 students, community welfare schemes, and social advocacy for community welfare.',
-    bengaliDescription: 'কার্যনির্বাহী সমিতির উদ্যোগে আয়োজিত ঐতিহাসিক মহাসম্মেলন, যেখানে ছাত্রাবাস ৫০ আসনে সম্প্রসারণ ও রাজ্যজুড়ে সামাজিক কল্যাণমূলক উদ্যোগের ঘোষণা হয়।'
+    description: 'Grand assembly convened by the Executive Committee, celebrating the hostel accommodation facility for 32 boys & 20 girls, community welfare schemes, and social advocacy for community welfare.',
+    bengaliDescription: 'কার্যনির্বাহী সমিতির উদ্যোগে আয়োজিত ঐতিহাসিক মহাসম্মেলন, যেখানে ৩২ জন ছাত্র ও ২০ জন ছাত্রীর জন্য ছাত্রাবাস আবাসন সুবিধা সম্প্রসারণ ও রাজ্যজুড়ে সামাজিক কল্যাণমূলক উদ্যোগের ঘোষণা হয়।'
   },
   {
     id: 'past-2',
@@ -1155,8 +1155,8 @@ export const LATEST_NEWS_UPDATES = [
   },
   {
     id: 'news-3',
-    title: 'Hostel Admissions Open for Rural Students (50 Capacity with Female Wing)',
-    bengaliTitle: 'গ্রামীণ ছাত্রছাত্রীদের জন্য ছাত্রাবাসে ভর্তি প্রক্রিয়া শুরু (৫০ আসন)',
+    title: 'Hostel Admissions Open for Rural Students (32 Boys & 20 Girls Accommodation)',
+    bengaliTitle: 'গ্রামীণ ছাত্রছাত্রীদের জন্য ছাত্রাবাসে ভর্তি প্রক্রিয়া শুরু (৩২ ছাত্র ও ২০ ছাত্রী)',
     date: 'Academic Session 2026',
     bengaliDate: 'শিক্ষাবর্ষ ২০২৬',
     category: 'Community News' as const,
@@ -1202,8 +1202,8 @@ export const GALLERY_ITEMS = [
     category: 'Photos' as const,
     bengaliCategory: 'আলোকচিত্র',
     imageUrl: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80',
-    description: 'The renovated four-storeyed Central Office building in Kolkata housing offices, library, 50-student residential hostel arrangements, and a Guest Room facility for community members.',
-    bengaliDescription: 'কলকাতায় অবস্থিত চারতলা ভবন—যেখানে কেন্দ্রীয় কার্যালয়, পাঠাগার, ৫০ জন শিক্ষার্থীর আবাসিক ব্যবস্থা ও সমাজের সদস্যদের জন্য অতিথি কক্ষ (Guest Room) রয়েছে।',
+    description: 'The renovated four-storeyed Central Office building in Kolkata housing offices, library, hostel accommodation facility for 32 boys & 20 girls, and a Guest Room facility for community members.',
+    bengaliDescription: 'কলকাতায় অবস্থিত চারতলা ভবন—যেখানে কেন্দ্রীয় কার্যালয়, পাঠাগার, ৩২ জন ছাত্র ও ২০ জন ছাত্রীর ছাত্রাবাস আবাসন ব্যবস্থা ও সমাজের সদস্যদের জন্য অতিথি কক্ষ (Guest Room) রয়েছে।',
     date: 'Established 1956 • Renovated 2018–2022',
     bengaliDate: 'স্থাপিত ১৯৫৬ • সংস্কার ২০১৮–২০২২',
     location: '52B, Indian Mirror Street, Kolkata – 700013 (Opp. G.D. Hospital, Taltala)',

@@ -195,7 +195,7 @@ export const Footer: React.FC<FooterProps> = ({
               <div className="p-3 bg-slate-800/60 rounded-xl border border-slate-700 space-y-1">
                 <div className="font-bold text-white flex items-center gap-1.5">
                   <Building2 className="w-3.5 h-3.5 text-orange-400" />
-                  <span>{isBengali ? 'কেন্দ্রীয় কার্যালয়, ৫০ আসনের ছাত্রাবাস ও অতিথি কক্ষ' : 'Central Office, 50-Seat Hostel & Guest Room'}</span>
+                  <span>{isBengali ? 'কেন্দ্রীয় কার্যালয়, ছাত্রাবাস (৩২ ছাত্র ও ২০ ছাত্রী) ও অতিথি কক্ষ' : 'Central Office, Hostel (32 Boys & 20 Girls) & Guest Room'}</span>
                 </div>
                 <p className="text-[11px] text-slate-300">{isBengali ? (NGO_DETAILS.bengaliHeadOffice?.address || '৫২বি, ইন্ডিয়ান মিরর স্ট্রিট, কলকাতা – ৭০০০১৩ (তালতলা)') : NGO_DETAILS.headOffice.address}</p>
                 <p className="text-[11px] text-slate-400">{isBengali ? (NGO_DETAILS.bengaliHeadOffice?.landmark || 'জি. ডি. হাসপাতালের বিপরীতে — অতিথি কক্ষের (Guest Room) সুবিধা উপলব্ধ') : NGO_DETAILS.headOffice.landmark}</p>

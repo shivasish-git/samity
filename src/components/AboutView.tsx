@@ -104,8 +104,8 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
             </p>
             <p>
               {isBengali
-                ? '১৯৫৬ সালে সমিতির নেতৃবৃন্দ ও সমাজের দানশীল ও প্রখ্যাত ব্যক্তিবর্গের সহায়তায় কলকাতার ৫২বি ইন্ডিয়ান মিরর স্ট্রিটে নিজস্ব জমিতে চারতলা স্থায়ী কেন্দ্রীয় কার্যালয় ভবন ক্রয় ও নির্মাণ করা হয়। এই ভবনের ৩য় ও ৪র্থ তলায় দূরবর্তী গ্রামীণ মেধাবী ও অসচ্ছল ছাত্রদের জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা করা হয় (২০১৮ সাল থেকে ছাত্রীদের জন্য পৃথক শাখা চালু হয়েছে, বর্তমানে মোট ৫০ জন শিক্ষার্থীর আবাসিক ব্যবস্থা করা হয়) এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধাও রয়েছে।'
-                : 'In 1956, through the contributions of philanthropic and distinguished community well-wishers, the Samity acquired and constructed its permanent four-storeyed Central Office at 52B Indian Mirror Street, Kolkata – 700013. On its 3rd and 4th floors, residential hostel arrangements are made for up to 50 rural boys and girls pursuing higher education in Kolkata (with a female wing opened in 2018), alongside a Guest Room facility for community members.'}
+                ? '১৯৫৬ সালে সমিতির নেতৃবৃন্দ ও সমাজের দানশীল ও প্রখ্যাত ব্যক্তিবর্গের সহায়তায় কলকাতার ৫২বি ইন্ডিয়ান মিরর স্ট্রিটে নিজস্ব জমিতে চারতলা স্থায়ী কেন্দ্রীয় কার্যালয় ভবন ক্রয় ও নির্মাণ করা হয়। এই ভবনের ৩য় ও ৪র্থ তলায় দূরবর্তী গ্রামীণ মেধাবী ও অসচ্ছল শিক্ষার্থীদের জন্য ছাত্রাবাসের আবাসিক ব্যবস্থা (৩২ জন ছাত্র ও ২০ জন ছাত্রীর আবাসন সুবিধা, ২০১৮ সাল থেকে ছাত্রীদের পৃথক শাখা চালু হয়েছে) এবং সমাজের সদস্যদের জন্য অতিথি কক্ষের (Guest Room) সুবিধাও রয়েছে।'
+                : 'In 1956, through the contributions of philanthropic and distinguished community well-wishers, the Samity acquired and constructed its permanent four-storeyed Central Office at 52B Indian Mirror Street, Kolkata – 700013. On its 3rd and 4th floors, a dedicated hostel accommodation facility is maintained for 32 boys & 20 girls pursuing higher education in Kolkata (with a separate female wing opened in 2018), alongside a Guest Room facility for community members.'}
             </p>
             <p>
               {isBengali
@@ -345,9 +345,6 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
                       {isAdvisory ? <Crown className="w-3.5 h-3.5 text-amber-500" /> : <Award className="w-3.5 h-3.5 text-blue-900" />}
                       <span>{isBengali ? member.bengaliRole : member.role}</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      {isBengali ? member.bengaliBio : member.bio}
-                    </p>
                   </div>
                 </div>
 
@@ -544,11 +541,11 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
                   {isBengali ? 'সহকারী কোষাধ্যক্ষবৃন্দ' : 'ASSTT. TREASURER'}
                 </span>
                 <div className="space-y-1">
-                  <div className="font-bold text-blue-950 text-sm">{isBengali ? '১) উজ্জ্বল বিশ্বাস' : '1) UJJAL BISWAS (BISWAI)'}</div>
+                  <div className="font-bold text-blue-950 text-sm">{isBengali ? '১) উজ্জ্বল বিশ্বাই' : '1) UJJAL BISWAI'}</div>
                   <div className="font-bold text-blue-950 text-sm">{isBengali ? '২) মৃণাল সাহা' : '2) MRINAL SAHA'}</div>
                 </div>
                 <p className="text-[11px] text-slate-500 font-medium">
-                  {isBengali ? 'উজ্জ্বল বিশ্বাস • মৃণাল সাহা (সহকারী কোষাধ্যক্ষ)' : 'Assistant Treasurers (Ledger & Accounting)'}
+                  {isBengali ? 'উজ্জ্বল বিশ্বাই • মৃণাল সাহা (সহকারী কোষাধ্যক্ষ)' : 'Assistant Treasurers (Ledger & Accounting)'}
                 </p>
               </div>
             </div>
@@ -572,9 +569,6 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
                       </span>
                       <div>
                         <span className="font-bold text-slate-900">{isBengali ? member.bengaliName : member.name}</span>
-                        <div className="text-[10px] text-slate-500">
-                          {isBengali ? (member.bengaliPortfolio || member.portfolio) : member.portfolio}
-                        </div>
                       </div>
                     </div>
                     {member.district && (

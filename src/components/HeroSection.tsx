@@ -173,8 +173,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="absolute bottom-3 inset-x-3 text-white">
                   <p className="text-xs italic text-white/95 leading-relaxed font-serif-heading">
                     {isBengali
-                      ? '"৫২বি ইন্ডিয়ান মিরর স্ট্রিটে আমাদের চারতলা কেন্দ্রীয় কার্যালয় ভবনের ছাত্রাবাসে ৫০ জন ছাত্রছাত্রীর আবাসিক ব্যবস্থা করা হয় (নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার সহ), পাশাপাশি সমাজের সদস্যদের জন্য অতিথি কক্ষ (Guest Room) সুবিধা রয়েছে।"'
-                      : '"At 52B Indian Mirror Street, residential hostel arrangements are made for up to 50 students (with special priority for female higher education), alongside a Guest Room facility for community members."'}
+                      ? '"৫২বি ইন্ডিয়ান মিরর স্ট্রিটে আমাদের চারতলা কেন্দ্রীয় কার্যালয় ভবনের ছাত্রাবাসে ৩২ জন ছাত্র ও ২০ জন ছাত্রীর আবাসিক ব্যবস্থা রয়েছে (নারী উচ্চশিক্ষায় বিশেষ অগ্রাধিকার সহ), পাশাপাশি সমাজের সদস্যদের জন্য অতিথি কক্ষ (Guest Room) সুবিধা রয়েছে।"'
+                      : '"At 52B Indian Mirror Street, our hostel accommodation facility houses 32 boys & 20 girls (with special priority for female higher education), alongside a Guest Room facility for community members."'}
                   </p>
                   <p className="text-[11px] text-white/80 font-medium pt-1">
                     {isBengali ? '— বঙ্গীয় সাহা সমিতি (শুঁড়ি সমাজ)' : '— Bangiya Saha Samity (Sunri Samaj)'}
