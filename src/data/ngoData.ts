@@ -434,7 +434,7 @@ export const CENTRAL_OFFICE_BEARERS = [
     bio: 'Presides over the Central Executive Committee, leading organizational policy, institutional administration, and constitutional rights safeguarding for the Sunri community.',
     bengaliBio: 'কেন্দ্রীয় কার্যনির্বাহী সমিতির সভাপতি হিসেবে প্রাতিষ্ঠানিক নীতি নির্ধারণ, প্রশাসনিক পরিচালনা এবং শুঁড়ি সমাজের সামগ্রিক অধিকার রক্ষায় নেতৃত্ব দিচ্ছেন।',
     contactNote: 'Central Secretariat, 52B Indian Mirror St',
-    imageUrl: DEFAULT_MEMBER_AVATAR
+    imageUrl: '/assets/aistudio/Bikash_Biswas_President_04a73014.png'
   },
   {
     id: 'ob-secretary',
@@ -650,7 +650,8 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Presides over the Central Executive Committee, leading administrative governance, community representation, and educational welfare initiatives across West Bengal.',
     bengaliBio: 'কেন্দ্রীয় কার্যনির্বাহী সমিতির সভাপতি হিসেবে সাংগঠনিক নীতি নির্ধারণ, প্রশাসনিক পরিচালনা এবং শুঁড়ি সমাজের সাংবিধানিক অধিকার সুরক্ষায় নেতৃত্ব দিচ্ছেন।',
     contactNote: 'Central Secretariat, 52B Indian Mirror St',
-    imageUrl: DEFAULT_MEMBER_AVATAR
+    imageUrl: '/assets/aistudio/Bikash_Biswas_President_04a73014.png',
+    imagePosition: '50% 12%'
   },
   {
     id: 'exec-sec',
@@ -764,7 +765,8 @@ export const LEADERSHIP_MEMBERS = [
     bio: 'Vice President guiding educational welfare and grassroots outreach in Bankura district and Western Rarh Bengal.',
     bengaliBio: 'বাঁকুড়া জেলায় শিক্ষার উদ্দেশ্যে সামাজিক সহায়তা (শুধুমাত্র আমাদের সম্প্রদায়ের জন্য), গ্রামীণ ছাত্রাবাস যোগাযোগ ও সামাজিক কার্যক্রমের সমন্বয়কারী সহ-সভাপতি।',
     contactNote: 'Bankura District Region',
-    imageUrl: DEFAULT_MEMBER_AVATAR
+    imageUrl: '/assets/aistudio/UDDHAB_CHANDRA_SAHA_9a5e1e47.png',
+    imagePosition: '50% 18%'
   },
   {
     id: 'vp-nikhilesh-khan',

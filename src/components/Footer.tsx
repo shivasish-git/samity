@@ -124,7 +124,17 @@ export const Footer: React.FC<FooterProps> = ({
               <TreeLogo className="w-12 h-12 rounded-xl shrink-0 group-hover:scale-105 transition-transform" />
               <div>
                 <h4 className="font-serif-heading text-lg font-bold text-white leading-tight group-hover:text-orange-400 transition-colors">
-                  {isBengali ? 'বঙ্গীয় সাহা সমিতি (শুঁড়ি সমাজ)' : 'Bangiya Saha Samity (Sunri Samaj)'}
+                  {isBengali ? (
+                    <>
+                      বঙ্গীয় সাহা সমিতি
+                      <span className="block">(শুঁড়ি সমাজ)</span>
+                    </>
+                  ) : (
+                    <>
+                      Bangiya Saha Samity
+                      <span className="block">(Sunri Samaj)</span>
+                    </>
+                  )}
                 </h4>
                 <p className="text-xs text-orange-400 font-medium">
                   {isBengali 

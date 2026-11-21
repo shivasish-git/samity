@@ -104,10 +104,9 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 bg-blue-900">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1000&q=80"
+                      src="/assets/aistudio/Bright_Organized_Home_Office_8db19cc2.png"
                       alt="Bangiya Saha Samity Central Office, Students Hostel and Guest Room"
                       className="w-full h-full object-cover"
-                      referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/30 to-transparent"></div>
                     
